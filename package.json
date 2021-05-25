@@ -1,0 +1,30 @@
+{
+  "name": "spell_checker",
+  "version": "0.0.1",
+  "description": "Spell checker Lad",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon --exec ts-node index.ts",
+    "build": "tsc",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lonlyd/lad-spell-checker.git"
+  },
+  "keywords": [
+    "spell checker"
+  ],
+  "author": "Ilshat Ishdavletov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lonlyd/lad-spell-checker/issues"
+  },
+  "homepage": "https://github.com/lonlyd/lad-spell-checker#readme",
+  "devDependencies": {
+    "@types/node": "^15.6.1",
+    "ts-node": "^10.0.0",
+    "typescript": "^4.2.4"
+  }
+}
